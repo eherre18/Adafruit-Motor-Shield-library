@@ -28,7 +28,9 @@
  */
 // <BPS> 09/15/2012 Modified for use with chipKIT boards
 
-
+#include <inttypes.h> 
+#include <avr/io.h> 
+#include "WProgram.h" 
 #ifndef _AFMotor_h_
 #define _AFMotor_h_
 
